@@ -1,0 +1,209 @@
+[
+    {
+        "name": "Kauneus Moda Fit",
+        "description": "<p>Logo for a fitness clothing brand. Adobe Illustrator CC 2018</p>",
+        "images": [
+            { "url": "kauneus-moda-fit-1.jpg" },
+            { "url": "kauneus-moda-fit-2.jpg" },
+            { "url": "kauneus-moda-fit-3.jpg" },
+            { "url": "kauneus-moda-fit-4.jpg" }
+        ],
+        "thumbnail": "kauneus-moda-fit.jpg",
+        "link": "",
+        "slug": "kauneus-moda-fit",
+        "col": false
+    },
+    {
+        "name": "WI Digital - 2021",
+        "description": "<p>Now with internal pages for each session.</p><p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://widigital.com.br/?ref=lksvn\" title=\"Soluções tecnológicas para marketing multinível\">WI Digital</a> is a software house focused on developing solutions for network marketing.</p><p>Created the layout, structure with Bootstrap, Sass and jQuery</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "images": [
+            { "url": "widigital-2021-1.jpg" },
+            { "url": "widigital-2021-2.jpg" },
+            { "url": "widigital-2021-3.jpg" },
+            { "url": "widigital-2021-4.jpg" },
+            { "url": "widigital-2021-5.jpg" }
+        ],
+        "thumbnail": "widigital-2021.jpg",
+        "link": "http://widigital.com.br",
+        "slug": "wi-digital-2021",
+        "col": false
+    },{
+        "name": "Profile Page - Atommn",
+        "description": "<p>New layout for the external profile page of the <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://atommn.com.br/?ref=lksvn\" title=\"Sistema para gestão de Marketing Multinível\">Atommn System</a>. Adding new features such as the company video and more complete description.</p><p>Created the layout, structure with Bootstrap, Sass and jQuery</p>",
+        "images": [
+            { "url": "profile-page-atommn-1.jpg" },
+            { "url": "profile-page-atommn-2.jpg" },
+            { "url": "profile-page-atommn-3.jpg" },
+            { "url": "profile-page-atommn-4.jpg" }
+        ],
+        "thumbnail": "profile-page-atommn.jpg",
+        "link": "",
+        "slug": "profile-page-atommn",
+        "col": false
+    },
+    {
+        "name": "Product Page - Atommn",
+        "description": "<p>New layout for the external product page of the <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://atommn.com.br/?ref=lksvn\" title=\"Sistema para gestão de Marketing Multinível\">Atommn System</a>. Adding new features such as the possibility to buy the product, video and more complete description.</p><p>Created the layout, structure with Bootstrap, Sass and jQuery</p>",
+        "images": [
+            { "url": "product-page-atommn-1.jpg" },
+            { "url": "product-page-atommn-2.jpg" },
+            { "url": "product-page-atommn-3.jpg" },
+            { "url": "product-page-atommn-4.jpg" }
+        ],
+        "thumbnail": "product-page-atommn.jpg",
+        "link": "",
+        "slug": "product-page-atommn",
+        "col": false
+    },
+    {
+        "name": "WI Digital - 2019",
+        "description": "<p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://widigital.com.br/?ref=lksvn\" title=\"Soluções tecnológicas para marketing multinível\">WI Digital</a> is a software house focused on developing solutions for network marketing.</p><p>Created the layout, structure with Bootstrap, Sass and jQuery</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "images": [
+            { "url": "widigital-1.jpg" },
+            { "url": "widigital-2.jpg" },
+            { "url": "widigital-3.jpg" },
+            { "url": "widigital-4.jpg" }
+        ],
+        "thumbnail": "widigital.jpg",
+        "link": "http://widigital.com.br",
+        "slug": "wi-digital",
+        "col": false
+    },
+    {
+        "name": "Atommn System",
+        "description": "<p>Atommn is a software for network marketing made by <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://widigital.com.br/?ref=lksvn\" title=\"Soluções tecnológicas para marketing multinível\">WI Digital</a>.</p> <p>Created the layout, structure with Bootstrap, Sass, jQuery and HubSpot integration.</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "images": [
+            { "url": "hotsite-atommn-1.jpg" },
+            { "url": "hotsite-atommn-2.jpg" },
+            { "url": "hotsite-atommn-3.jpg" },
+            { "url": "hotsite-atommn-4.jpg" },
+            { "url": "hotsite-atommn-5.jpg" },
+            { "url": "hotsite-atommn-6.jpg" }
+        ],
+        "thumbnail": "atommn.jpg",
+        "link": "http://atommn.com.br/",
+        "slug": "atommn",
+        "col": false
+    },
+    {
+        "name": "Bild",
+        "description": "<p>Made the entire structure with Bootstrap on a blank template, remade a feel things for better usability, corrections for responsive layout and Plugins configuration.</p>  <p>CMS by <a href=\"https://wordpress.org/\" title=\"Blog Tool, Publishing Platform, and CMS — WordPress\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">WordPress</a></p>",
+        "images": [
+            { "url": "bild-1.jpg" },
+            { "url": "bild-2.jpg" },
+            { "url": "bild-3.jpg" },
+            { "url": "bild-4.jpg" },
+            { "url": "bild-5.jpg" },
+            { "url": "bild-6.jpg" }
+        ],
+        "thumbnail": "bild.jpg",
+        "link": "https://bild.com.br/",
+        "slug": "bild",
+        "col": false
+    },
+    {
+        "name": "Victor Hessel",
+        "description": "<p>Create a logo for a Hair Stylist. Adobe Illustrator CC 2018.</p>",
+        "images": [
+            { "url": "victor-hessel-1.jpg" },
+            { "url": "victor-hessel-2.jpg" },
+            { "url": "victor-hessel-3.jpg" }
+        ],
+        "thumbnail": "victor-hessel.jpg",
+        "link": "",
+        "slug": "victor-hessel",
+        "col": true
+    },
+    {
+        "name": "Luci Luci",
+        "description": "<p>Created the layout, structure with Bootstrap, Sass and jQuery</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "images": [
+            { "url": "template-luciluci-1.jpg" },
+            { "url": "template-luciluci-2.jpg" },
+            { "url": "template-luciluci-3.jpg" },
+            { "url": "template-luciluci-4.jpg" },
+            { "url": "template-luciluci-5.jpg" }
+        ],
+        "thumbnail": "luciluci.jpg",
+        "link": "",
+        "slug": "luci-luci",
+        "col": false
+    },
+    {
+        "name": "APP Rodobens",
+        "description": "<p>A web-app based for a insurance broker, made with Bootstrap 4, Sass and jQuery.</p><p><strong>NOTE:</strong> Images are from an early stage, there's now way more pages.</p>",
+        "images": [
+            { "url": "app-rodobens-1.png" },
+            { "url": "app-rodobens-2.png" },
+            { "url": "app-rodobens-3.png" },
+            { "url": "app-rodobens-4.png" },
+            { "url": "app-rodobens-5.png" },
+            { "url": "app-rodobens-6.png" },
+            { "url": "app-rodobens-7.png" },
+            { "url": "app-rodobens-8.png" }
+        ],
+        "thumbnail": "rodobens.jpg",
+        "link": "",
+        "slug": "web-app-rodobens",
+        "col": false
+    },
+    {
+        "name": "Music Template",
+        "description": "<p>Created the layout, structure with Bootstrap, Sass, jQuery and HubSpot integration.</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "images": [
+            { "url": "music-template-1.jpg" },
+            { "url": "music-template-2.jpg" },
+            { "url": "music-template-3.jpg" },
+            { "url": "music-template-4.jpg" },
+            { "url": "music-template-5.jpg" }
+        ],
+        "thumbnail": "music.jpg",
+        "link": "",
+        "slug": "music-template",
+        "col": false
+    },
+    {
+        "name": "Loteria of Legends",
+        "description": "<p>Loteria of Legends was a lotto app for RP (Riot Points, a currency in League of Legends).</p> <p>Made the design for an Android app, logo, icons, landing page, app/play store and social media images.</p>",
+        "images": [
+            { "url": "loteria-of-legends-1.jpg" },
+            { "url": "loteria-of-legends-2.jpg" },
+            { "url": "loteria-of-legends-3.jpg" },
+            { "url": "loteria-of-legends-4.jpg" },
+            { "url": "loteria-of-legends-5.jpg" },
+            { "url": "loteria-of-legends-6.jpg" },
+            { "url": "loteria-of-legends-7.jpg" }
+        ],
+        "thumbnail": "loteria-of-legends.jpg",
+        "link": "",
+        "slug": "loteria-of-legends",
+        "col": false
+    },
+    {
+        "name": "Alumni ESPM",
+        "description": "<p>Made the entire structure with Bootstrap, Sass and jQuery.</p><p> Remade a feel things for better usability</p>",
+        "images": [
+            { "url": "alumni-espm-1.jpg" },
+            { "url": "alumni-espm-2.jpg" },
+            { "url": "alumni-espm-3.jpg" },
+            { "url": "alumni-espm-4.jpg" }
+        ],
+        "thumbnail": "alumni.jpg",
+        "link": "",
+        "slug": "alumni-espm",
+        "col": false
+    },
+    {
+        "name": "HelloFood!",
+        "description": "<p>A template for an existing tool for food delivery. Adobe Photoshop CC 2018.</p>",
+        "images": [
+            { "url": "hellofood-1.jpg" },
+            { "url": "hellofood-2.jpg" },
+            { "url": "hellofood-3.jpg" }
+        ],
+        "thumbnail": "hellofood.jpg",
+        "link": "",
+        "slug": "hello-food",
+        "col": false
+    }
+]
