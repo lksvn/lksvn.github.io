@@ -1,0 +1,71 @@
+$monochrome: (
+    --color: #e9efec,
+    --hover: #a0a08b,
+    --shadow: #e9efec,
+    --border: #555568,
+    --background: #211e20
+);
+
+$lightish: (
+    --color: #46425e,
+    --hover: #ff6973,
+    --shadow: #ff6973,
+    --border: #ff6973,
+    --background: #ffeecc
+);
+
+$purpleish: (
+    --color: #dca3a3,
+    --hover: #edb4a1,
+    --shadow: #764462,
+    --border: #764462,
+    --background: #2c2137
+);
+
+$dreamcore: (
+    --color: #f7ffae,
+    --hover: #96fbc7,
+    --shadow: #d8bfd8,
+    --border: #ffb3cb,
+    --background: #74569b
+);
+
+@use 'sass:map';
+
+@mixin theme-vars($light-map, $dark-map) {
+    :root {
+        color-scheme: light dark;
+
+        @each $key, $light-value in $light-map {
+            #{$key}: #{$light-value};
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                @each $key, $dark-value in $dark-map {
+                    #{$key}: #{$dark-value};
+                }
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                @each $key, $light-value in $light-map {
+                    #{$key}: #{$light-value};
+                }
+            }
+        }
+
+        @supports (color: light-dark(#000, #fff)) {
+            @each $key, $light-value in $light-map {
+                $dark-value: $light-value;
+
+                @if map.has-key($dark-map, $key) {
+                    $dark-value: map.get($dark-map, $key);
+                }
+
+                #{$key}: light-dark(#{$light-value}, #{$dark-value});
+            }
+        }
+    }
+}
