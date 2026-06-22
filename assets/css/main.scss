@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-::selection {
+::selection, .selected {
     background-color: var(--hover);
     color: var(--background);
 }
