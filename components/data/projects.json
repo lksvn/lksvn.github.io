@@ -1,5 +1,19 @@
 [
     {
+        "name": "WIPag - 2021",
+        "description": "<p>Now with internal pages for each session.</p><p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://wipag.com.br/?ref=lksvn\" title=\"PIX WIPag - Tecnologia para meios de pagamentos\">PIX WIPag</a> is a solution for integrating PIX into digital platforms quickly and conveniently.</p><p>PSD to HTML, strutcture with bootstrap and VueJS.</p>",
+        "images": [
+            { "url": "wipag-1.jpg" },
+            { "url": "wipag-2.jpg" },
+            { "url": "wipag-3.jpg" },
+            { "url": "wipag-4.jpg" }
+        ],
+        "thumbnail": "wipag.jpg",
+        "link": "http://wipag.com.br",
+        "slug": "wi-pag",
+        "col": false
+    },
+    {
         "name": "Kauneus Moda Fit",
         "description": "<p>Logo for a fitness clothing brand. Adobe Illustrator CC 2018</p>",
         "images": [
