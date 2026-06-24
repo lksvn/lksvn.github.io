@@ -23,10 +23,10 @@ body {
     font-style: normal;
     font-variation-settings: "wdth" 100;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 16px;
     background-color: var(--background);
     color: var(--color);
-    max-width: 60rem;
+    max-width: 50rem;
     padding: 0 1rem;
     margin: 0 auto;
     line-height: 1.2;
@@ -58,6 +58,7 @@ li {
 }
 em,i { font-style: italic; }
 small { font-size: 75%; }
+small.smool { font-size: 50%; }
 p { margin-bottom: 0.625rem; }
 a {
     color: var(--color);
@@ -91,6 +92,7 @@ a {
     }
 }
 main { position: relative; }
+article { margin-bottom: 10rem; }
 footer {
     text-align: center;
     padding: 2rem 0;
@@ -129,11 +131,14 @@ footer {
     }
 }
 .helloWorld p:nth-of-type(1){ font-size: 2rem; }
-.helloWorld p:nth-of-type() {
-    font-size: 0.875rem;
-    margin-bottom: 1.25rem;
+.helloWorld p {
+    margin-bottom: 1.1rem;
 }
 
+.listings { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem; }
+.listings > div { flex: 1 1 10rem; }
+
+#app { margin-top: 3rem;}
 .project {
     margin-bottom:  2.5rem;
     padding-bottom:  2.5rem;

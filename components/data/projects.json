@@ -1,7 +1,7 @@
 [
     {
         "name": "WIPag - 2021",
-        "description": "<p>Now with internal pages for each session.</p><p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://wipag.com.br/?ref=lksvn\" title=\"PIX WIPag - Tecnologia para meios de pagamentos\">PIX WIPag</a> is a solution for integrating PIX into digital platforms quickly and conveniently.</p><p>PSD to HTML, strutcture with bootstrap and VueJS.</p>",
+        "description": "<p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://wipag.com.br/?ref=lksvn\" title=\"PIX WIPag - Tecnologia para meios de pagamentos\">PIX WIPag</a> is a solution for integrating PIX into digital platforms quickly and conveniently.</p><p>Front-end development and responsive implementation using Bootstrap and Vue.js.</p>",
         "images": [
             { "url": "wipag-1.jpg" },
             { "url": "wipag-2.jpg" },
@@ -15,7 +15,7 @@
     },
     {
         "name": "Kauneus Moda Fit",
-        "description": "<p>Logo for a fitness clothing brand. Adobe Illustrator CC 2018</p>",
+        "description": "<p>Logo for a fitness clothing brand. Brand identity and logo design.</p><p>Created using Adobe Illustrator.</p>",
         "images": [
             { "url": "kauneus-moda-fit-1.jpg" },
             { "url": "kauneus-moda-fit-2.jpg" },
@@ -29,7 +29,7 @@
     },
     {
         "name": "WI Digital - 2021",
-        "description": "<p>Now with internal pages for each session.</p><p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://widigital.com.br/?ref=lksvn\" title=\"Soluções tecnológicas para marketing multinível\">WI Digital</a> is a software house focused on developing solutions for network marketing.</p><p>Created the layout, structure with Bootstrap, Sass and jQuery</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "description": "<p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://widigital.com.br/?ref=lksvn\" title=\"Soluções tecnológicas para marketing multinível\">WI Digital</a> is a software house focused on developing solutions for network marketing.</p><p>Contributed to front-end implementation and interface development for the company's website.</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
         "images": [
             { "url": "widigital-2021-1.jpg" },
             { "url": "widigital-2021-2.jpg" },
@@ -43,7 +43,7 @@
         "col": false
     },{
         "name": "Profile Page - Atommn",
-        "description": "<p>New layout for the external profile page of the <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://atommn.com.br/?ref=lksvn\" title=\"Sistema para gestão de Marketing Multinível\">Atommn System</a>. Adding new features such as the company video and more complete description.</p><p>Created the layout, structure with Bootstrap, Sass and jQuery</p>",
+        "description": "<p>Redesigned the public profile page for the <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://atommn.com.br/?ref=lksvn\" title=\"Sistema para gestão de Marketing Multinível\">Atommn</a> platform. Implemented new interface sections, company presentation content and improved user experience.</p><p>Built using Bootstrap, Sass and jQuery.</p>",
         "images": [
             { "url": "profile-page-atommn-1.jpg" },
             { "url": "profile-page-atommn-2.jpg" },
@@ -57,7 +57,7 @@
     },
     {
         "name": "Product Page - Atommn",
-        "description": "<p>New layout for the external product page of the <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://atommn.com.br/?ref=lksvn\" title=\"Sistema para gestão de Marketing Multinível\">Atommn System</a>. Adding new features such as the possibility to buy the product, video and more complete description.</p><p>Created the layout, structure with Bootstrap, Sass and jQuery</p>",
+        "description": "<p>Redesigned the public product page for the <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://atommn.com.br/?ref=lksvn\" title=\"Sistema para gestão de Marketing Multinível\">Atommn</a> platform. Added support for product information, media content and purchase-related features.</p><p>Built using Bootstrap, Sass and jQuery.</p>",
         "images": [
             { "url": "product-page-atommn-1.jpg" },
             { "url": "product-page-atommn-2.jpg" },
@@ -71,7 +71,7 @@
     },
     {
         "name": "WI Digital - 2019",
-        "description": "<p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://widigital.com.br/?ref=lksvn\" title=\"Soluções tecnológicas para marketing multinível\">WI Digital</a> is a software house focused on developing solutions for network marketing.</p><p>Created the layout, structure with Bootstrap, Sass and jQuery</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "description": "<p>Corporate website redesign for WI Digital. Implemented front-end interfaces, responsive layouts and HubSpot integrations.</p><p>Built using Bootstrap, Sass, jQuery and Kirby CMS.</p>",
         "images": [
             { "url": "widigital-1.jpg" },
             { "url": "widigital-2.jpg" },
@@ -85,7 +85,7 @@
     },
     {
         "name": "Atommn System",
-        "description": "<p>Atommn is a software for network marketing made by <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://widigital.com.br/?ref=lksvn\" title=\"Soluções tecnológicas para marketing multinível\">WI Digital</a>.</p> <p>Created the layout, structure with Bootstrap, Sass, jQuery and HubSpot integration.</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "description": "<p>Marketing platform developed by WI Digital. Implemented front-end interfaces, responsive layouts and HubSpot integrations.</p> <p>Built using Bootstrap, Sass, jQuery and Kirby CMS.</p>",
         "images": [
             { "url": "hotsite-atommn-1.jpg" },
             { "url": "hotsite-atommn-2.jpg" },
@@ -101,7 +101,7 @@
     },
     {
         "name": "Bild",
-        "description": "<p>Made the entire structure with Bootstrap on a blank template, remade a feel things for better usability, corrections for responsive layout and Plugins configuration.</p>  <p>CMS by <a href=\"https://wordpress.org/\" title=\"Blog Tool, Publishing Platform, and CMS — WordPress\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">WordPress</a></p>",
+        "description": "<p>Real estate website redesign and front-end implementation. Developed responsive layouts, improved usability and integrated CMS functionality.</p><p>Built using Bootstrap and WordPress.</p>",
         "images": [
             { "url": "bild-1.jpg" },
             { "url": "bild-2.jpg" },
@@ -117,7 +117,7 @@
     },
     {
         "name": "Victor Hessel",
-        "description": "<p>Create a logo for a Hair Stylist. Adobe Illustrator CC 2018.</p>",
+        "description": "<p>Logo and visual identity design for a professional hair stylist.</p><p>Created using Adobe Illustrator.</p>",
         "images": [
             { "url": "victor-hessel-1.jpg" },
             { "url": "victor-hessel-2.jpg" },
@@ -130,7 +130,7 @@
     },
     {
         "name": "Luci Luci",
-        "description": "<p>Created the layout, structure with Bootstrap, Sass and jQuery</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "description": "<p>Luxury fragrance website. Designed and developed responsive front-end layouts using Bootstrap, Sass and jQuery.</p> <p>Powered by Kirby CMS.</p>",
         "images": [
             { "url": "template-luciluci-1.jpg" },
             { "url": "template-luciluci-2.jpg" },
@@ -145,7 +145,7 @@
     },
     {
         "name": "APP Rodobens",
-        "description": "<p>A web-app based for a insurance broker, made with Bootstrap 4, Sass and jQuery.</p><p><strong>NOTE:</strong> Images are from an early stage, there's now way more pages.</p>",
+        "description": "<p>Insurance-focused web application developed for Rodobens. Designed and implemented responsive interfaces using Bootstrap, Sass and jQuery.</p><p>Gallery screenshots represent an early project version.</p>",
         "images": [
             { "url": "app-rodobens-1.png" },
             { "url": "app-rodobens-2.png" },
@@ -163,7 +163,7 @@
     },
     {
         "name": "Music Template",
-        "description": "<p>Created the layout, structure with Bootstrap, Sass, jQuery and HubSpot integration.</p> <p>CMS by <a href=\"https://getkirby.com/\" title=\"Kirby - The file-based content management system\"  rel=\"noopener noreferrer\" target=\"_blank\" target=\"_blank\">Kirby</a></p>",
+        "description": "<p>Music and entertainment website template. Developed responsive layouts and integrated HubSpot functionality.</p><p>Built using Bootstrap, Sass and jQuery.</p>",
         "images": [
             { "url": "music-template-1.jpg" },
             { "url": "music-template-2.jpg" },
@@ -178,7 +178,7 @@
     },
     {
         "name": "Loteria of Legends",
-        "description": "<p>Loteria of Legends was a lotto app for RP (Riot Points, a currency in League of Legends).</p> <p>Made the design for an Android app, logo, icons, landing page, app/play store and social media images.</p>",
+        "description": "<p>Loteria of Legends was a promotional lottery app inspired by League of Legends.</p><p>Designed the visual identity, logo, Android app interface, landing page and marketing assets, including social media graphics and store materials.</p>",
         "images": [
             { "url": "loteria-of-legends-1.jpg" },
             { "url": "loteria-of-legends-2.jpg" },
@@ -195,7 +195,7 @@
     },
     {
         "name": "Alumni ESPM",
-        "description": "<p>Made the entire structure with Bootstrap, Sass and jQuery.</p><p> Remade a feel things for better usability</p>",
+        "description": "<p>Front-end implementation for the ESPM Alumni platform. Developed responsive layouts and improved overall user experience using Bootstrap, Sass and jQuery.</p>",
         "images": [
             { "url": "alumni-espm-1.jpg" },
             { "url": "alumni-espm-2.jpg" },
@@ -209,7 +209,7 @@
     },
     {
         "name": "HelloFood!",
-        "description": "<p>A template for an existing tool for food delivery. Adobe Photoshop CC 2018.</p>",
+        "description": "<p>Food delivery platform interface concept.</p><p>Designed and prototyped responsive layouts using Adobe Photoshop.</p>",
         "images": [
             { "url": "hellofood-1.jpg" },
             { "url": "hellofood-2.jpg" },
