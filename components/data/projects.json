@@ -1,5 +1,25 @@
 [
     {
+        "name": "JurAssist",
+        "description": "<p>AI-powered legal assistant platform developed as a collaborative project.</p><p>Contributed to the development of the web application, including front-end interfaces, Express.js backend, OpenAI API integration and the project landing page.</p><p>Key features include: AI chat assistant; Document sumarization; Legal document generation; Legal template generation; Legal document analysis.</p><p>Built using Vue.js, Vue Router, Tailwind CSS, Express.js, MongoDB and the OpenAI API.</p><p><strong>Note:</strong> Private repository. Images were taken during development and may differ from the current production version.</p>",
+        "images": [
+            { "url": "jurassist-1.png" },
+            { "url": "jurassist-2.png" },
+            { "url": "jurassist-3.png" },
+            { "url": "jurassist-4.png" },
+            { "url": "jurassist-5.png" },
+            { "url": "jurassist-6.png" },
+            { "url": "jurassist-landing-1.png" },
+            { "url": "jurassist-landing-2.png" },
+            { "url": "jurassist-landing-3.png" },
+            { "url": "jurassist-landing-4.png" }
+        ],
+        "thumbnail": "jurassist.jpg",
+        "link": "https://jurassist.com.br",
+        "slug": "jurassist",
+        "col": false
+    },
+    {
         "name": "WIPag - 2021",
         "description": "<p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://wipag.com.br/?ref=lksvn\" title=\"PIX WIPag - Tecnologia para meios de pagamentos\">PIX WIPag</a> is a solution for integrating PIX into digital platforms quickly and conveniently.</p><p>Front-end development and responsive implementation using Bootstrap and Vue.js.</p>",
         "images": [
@@ -9,7 +29,7 @@
             { "url": "wipag-4.jpg" }
         ],
         "thumbnail": "wipag.jpg",
-        "link": "http://wipag.com.br",
+        "link": "https://wipag.com.br",
         "slug": "wi-pag",
         "col": false
     },
@@ -38,7 +58,7 @@
             { "url": "widigital-2021-5.jpg" }
         ],
         "thumbnail": "widigital-2021.jpg",
-        "link": "http://widigital.com.br",
+        "link": "https://widigital.com.br",
         "slug": "wi-digital-2021",
         "col": false
     },{
@@ -79,7 +99,7 @@
             { "url": "widigital-4.jpg" }
         ],
         "thumbnail": "widigital.jpg",
-        "link": "http://widigital.com.br",
+        "link": "https://widigital.com.br",
         "slug": "wi-digital",
         "col": false
     },
@@ -95,7 +115,7 @@
             { "url": "hotsite-atommn-6.jpg" }
         ],
         "thumbnail": "atommn.jpg",
-        "link": "http://atommn.com.br/",
+        "link": "https://atommn.com.br/",
         "slug": "atommn",
         "col": false
     },
