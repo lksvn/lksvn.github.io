@@ -15,7 +15,10 @@
 ::selection, .selected {
     background-color: var(--hover);
     color: var(--background);
+    padding: 0 0.125rem;
 }
+
+.t-center { text-align: center; }
 
 body {
     font-family: 'Inconsolata', monospace;
@@ -29,7 +32,7 @@ body {
     max-width: 50rem;
     padding: 0 1rem;
     margin: 0 auto;
-    line-height: 1.2;
+    line-height: 1.25;
 }
 
 a,strong,b,h1,h2,h3,h4,h5,h6 { font-weight: 900; }
@@ -135,8 +138,8 @@ footer {
     margin-bottom: 1.1rem;
 }
 
-.listings { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem; }
-.listings > div { flex: 1 1 10rem; }
+.listings { display: flex; gap: 2rem; flex-wrap: wrap; align-content: space-around; justify-content: center; align-items: stretch; margin-bottom: 3rem; }
+.listings > div { flex: 0 1 21rem; }
 
 #app { margin-top: 3rem;}
 .project {
