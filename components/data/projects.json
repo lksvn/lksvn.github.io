@@ -21,7 +21,7 @@
     },
     {
         "name": "WIPag - 2021",
-        "description": "<p><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://wipag.com.br/?ref=lksvn\" title=\"PIX WIPag - Tecnologia para meios de pagamentos\">PIX WIPag</a> is a solution for integrating PIX into digital platforms quickly and conveniently.</p><p>Front-end development and responsive implementation using Bootstrap and Vue.js.</p>",
+        "description": "<p>PIX WIPag was a solution for integrating PIX into digital platforms quickly and conveniently.</p><p>Front-end development and responsive implementation using Bootstrap and Vue.js.</p>",
         "images": [
             { "url": "wipag-1.jpg" },
             { "url": "wipag-2.jpg" },
@@ -29,7 +29,7 @@
             { "url": "wipag-4.jpg" }
         ],
         "thumbnail": "wipag.jpg",
-        "link": "https://wipag.com.br",
+        "link": "",
         "slug": "wi-pag",
         "col": false
     },
