@@ -1,3 +1,6 @@
+import { Projects } from "./components/Projects"
+import { projects } from "./data/projects"
+
 function App() {
 	return (
 		<>
@@ -12,6 +15,7 @@ function App() {
 				<section>
 					<h2>Projects</h2>
 					<p>Over the years I've worked on websites, landing pages, interfaces, branding projects and SaaS-related solutions.</p>
+					<Projects items={projects} />
 				</section>
 			</main>
 			<footer>
