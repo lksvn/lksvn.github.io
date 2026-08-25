@@ -15,6 +15,7 @@ function App() {
 				<section>
 					<h2>Projects</h2>
 					<p>Over the years I've worked on websites, landing pages, interfaces, branding projects and SaaS-related solutions.</p>
+					<p>Below are some public projects I can share.</p>
 					<Projects items={projects} />
 				</section>
 			</main>
