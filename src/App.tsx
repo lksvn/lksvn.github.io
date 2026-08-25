@@ -18,6 +18,7 @@ function App() {
                         <li><a href="https://instagram.com/luwske" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                         <li><a href="mailto:lksvn@outlook.com?subject=Hello There!">Email</a></li>
                         <li><a href="/Lucas_Vinicius_Web_Developer.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                        <li><a href="/now/">Now</a></li>
                     </ul>
                 </nav>
             </header>

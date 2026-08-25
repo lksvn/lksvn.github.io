@@ -14,4 +14,9 @@
 		<changefreq>monthly</changefreq>
 		<priority>1</priority>
 	</url>
+    <url>
+		<loc>https://lksvn.com.br/now/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>1</priority>
+	</url>
 </urlset>

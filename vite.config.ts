@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   input: [
     'index.html',
-    'freelance/index.html'
+    'freelance/index.html',
+    'now/index.html'
   ]
 })
