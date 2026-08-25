@@ -1,5 +1,0 @@
-# Group 1
-User-agent: *
-
-
-Sitemap: https://lksvn.com.br/sitemap.xml
