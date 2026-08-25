@@ -46,6 +46,71 @@ function App() {
                     <p>Currently exploring: TypeScript &bull; React &bull; Next.js &bull; Vite</p>
                 </section>
                 <section>
+                    <h2>Past Experiences</h2>
+                    <article>
+                        <h3>Freelancing</h3>
+                        <p>Web Developer (Part-time)</p>
+                        <p><time dateTime="2009">2009</time>{' – Present'}</p>
+                    </article>
+                    <article>
+                        <h3>WI Digital</h3>
+                        <p>Web Developer</p>
+                        <p>
+                            <time dateTime="2017-07">July 2017</time>{' – '}<time dateTime="2026-06">June 2026</time>
+                        </p>
+                        <ul>
+                            <li>Contributed to the evolution of the platform for nearly nine years.</li>
+                            <li>Rebuilt most of the application's responsive user interface.</li>
+                            <li>Developed front-end and back-end features.</li>
+                            <li>Maintained REST APIs and customer integrations.</li>
+                            <li>Worked with Brazilian payment gateways.</li>
+                            <li>Implemented business rules for products, commissions and payments.</li>
+                            <li>Served as the team's primary reference for front-end implementation and UI development.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Fazul Comunicação</h3>
+                        <p>Web Designer / PSD to HTML</p>
+                        <p>
+                            <time dateTime="2015-08">August 2015</time>{' – '}<time dateTime="2015-10">October 2015</time>
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Takestore</h3>
+                        <p>Web Designer / PSD to HTML</p>
+                        <p>
+                            <time dateTime="2014-08">August 2014</time>{' – '}<time dateTime="2014-11">November 2014</time>
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Agência EP2</h3>
+                        <p>Web Developer</p>
+                        <p>
+                            <time dateTime="2013-01">January 2013</time>{' – '}<time dateTime="2013-10">October 2013</time>
+                        </p>
+                    </article>
+                    <article>
+                        <h3>MQV Propaganda</h3>
+                        <p>Web Designer</p>
+                        <p>
+                            <time dateTime="2011-10">October 2011</time>{' – '}<time dateTime="2011-12">December 2011</time>
+                        </p>
+                    </article>
+                    <article>
+                        <h3>DHG Web Agência Interativa</h3>
+                        <p>Graphic Designer / Web Designer</p>
+                        <p><time dateTime="2011-01">January 2011</time>{' – '}<time dateTime="2011-09">September 2011</time></p>
+                        <p><time dateTime="2012-02">February 2012</time>{' – '}<time dateTime="2013-01">January 2013</time></p>
+                    </article>
+                    <article>
+                        <h3>StudioBR Desenvolvimentos</h3>
+                        <p>Graphic Designer / Web Designer</p>
+                        <p>
+                            <time dateTime="2009-03">March 2009</time>{' – '}<time dateTime="2010-12">December 2010</time>
+                        </p>
+                    </article>
+                </section>
+                <section>
                     <h2>Projects</h2>
                     <p>Over the years I've worked on websites, landing pages, interfaces, branding projects and SaaS-related solutions.</p>
                     <p>Below are some public projects I can share.</p>
