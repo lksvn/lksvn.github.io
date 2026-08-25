@@ -1,0 +1,75 @@
+[
+    {
+        "title": "Design Gráfico",
+        "services": [
+            {
+                "title": "Precisa de um logotipo?",
+                "description": "Uma marca clara para identificar seu negócio.",
+                "deliverables": [
+                    "Arquivos finais do logotipo",
+                    "Versões para uso digital e impressão"
+                ],
+                "whatsappUrl": "https://wa.me/5511953988891?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20um%20logotipo."
+            },
+            {
+                "title": "Precisa de artes para redes sociais?",
+                "description": "Artes para divulgar produtos, serviços e promoções.",
+                "deliverables": [
+                    "Artes nos formatos combinados",
+                    "Arquivos prontos para publicar"
+                ],
+                "whatsappUrl": "https://wa.me/5511953988891?text=Ol%C3%A1%21%20Preciso%20de%20uma%20arte%20para%20redes%20sociais."
+            },
+            {
+                "title": "Precisa de um cartão de visita?",
+                "description": "Um cartão com seus contatos e informações principais.",
+                "deliverables": [
+                    "Arquivo preparado para impressão",
+                    "Arquivo para compartilhar pelo WhatsApp"
+                ],
+                "whatsappUrl": "https://wa.me/5511953988891?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20um%20cart%C3%A3o%20de%20visita."
+            },
+            {
+                "title": "Precisa de um material impresso?",
+                "description": "Arte para panfletos, folders, cardápios e catálogos.",
+                "deliverables": [
+                    "Arte no formato combinado",
+                    "Arquivo pronto para a gráfica"
+                ],
+                "note": "Impressão e entrega física não estão incluídas.",
+                "whatsappUrl": "https://wa.me/5511953988891?text=Ol%C3%A1%21%20Gostaria%20de%20preparar%20um%20material%20para%20impress%C3%A3o."
+            }
+        ]
+    },
+    {
+        "title": "Sites",
+        "services": [
+            {
+                "title": "Precisa de um site para sua empresa?",
+                "description": "Um site para apresentar sua empresa, serviços e contato.",
+                "deliverables": [
+                    "Páginas combinadas na proposta",
+                    "Orientação sobre domínio e hospedagem"
+                ],
+                "whatsappUrl": "https://wa.me/5511953988891?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20um%20site."
+            },
+            {
+                "title": "Precisa divulgar um serviço ou campanha?",
+                "description": "Uma página para divulgar uma oferta e receber contatos.",
+                "deliverables": [
+                    "Página com o conteúdo organizado"
+                ],
+                "whatsappUrl": "https://wa.me/5511953988891?text=Ol%C3%A1%21%20Gostaria%20de%20divulgar%20um%20servi%C3%A7o%20ou%20campanha%20em%20uma%20p%C3%A1gina."
+            },
+            {
+                "title": "Precisa atualizar ou corrigir seu site?",
+                "description": "Ajustes de conteúdo, correções e pequenas melhorias.",
+                "deliverables": [
+                    "Ajustes combinados na proposta",
+                    "Site atualizado e testado"
+                ],
+                "whatsappUrl": "https://wa.me/5511953988891?text=Ol%C3%A1%21%20Preciso%20atualizar%20um%20site%20existente."
+            }
+        ]
+    }
+]
