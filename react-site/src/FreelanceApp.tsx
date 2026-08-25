@@ -1,4 +1,6 @@
+import { SelectedWorks } from "./components/SelectedWorks";
 import { Services } from "./components/Services";
+import { selectedWorks } from "./data/selectedWorks";
 import { services } from "./data/services";
 
 function FreelanceApp() {
@@ -28,6 +30,13 @@ function FreelanceApp() {
                     <p>Escolha o serviço mais próximo do seu pedido.</p>
 
                     <Services items={services} />
+                </section>
+                <section id="trabalhos">
+                    <h2>Trabalhos Selecionados</h2>
+
+                    <SelectedWorks items={selectedWorks} />
+
+                    <a href="https://wa.me/5511953988891?text=Ol%C3%A1%2C%20Lucas%21%20Vi%20seus%20trabalhos%20e%20gostaria%20de%20conversar%20sobre%20algo%20parecido." target="_blank" rel="noopener noreferrer">Vamos conversar</a>
                 </section>
             </main>
             <footer>
