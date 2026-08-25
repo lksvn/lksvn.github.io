@@ -11,10 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: react-site
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -24,7 +20,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-          cache-dependency-path: react-site/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
         run: npm ci
