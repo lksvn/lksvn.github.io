@@ -4,7 +4,7 @@ import { projects } from "./data/projects"
 function App() {
     return (
         <>
-            <header>
+            <header id="top">
                 <h1>Lucas Vinicius</h1>
                 <p>Web Developer</p>
                 <p>Building and evolving commercial web applications and SaaS products since 2009</p>
@@ -116,8 +116,48 @@ function App() {
                     <p>Below are some public projects I can share.</p>
                     <Projects items={projects} />
                 </section>
+                <section>
+                    <h2>Engineering Principles</h2>
+                    <p>I believe good software evolves over time.</p>
+                    <p>I prefer maintainable solutions over unnecessary complexity, simple interfaces over visual overload, and incremental improvements over large rewrites.</p>
+                    <p>My goal is to build software that is easy to understand, easy to maintain, and enjoyable to use.</p>
+                </section>
+                <section>
+                    <h2>Uses</h2>
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li>PHP</li>
+                        <li>Git</li>
+                        <li>Tailwind CSS</li>
+                        <li>Vue.js</li>
+                        <li>Python</li>
+                        <li>Windows</li>
+                        <li>Linux</li>
+                        <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Next.js</li>
+                        <li>Vite</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Magic: The Gathering</li>
+                        <li>ARPGs: Diablo IV, Path of Exile 1 & 2 and Last Epoch</li>
+                        <li>Listening to EDM</li>
+                    </ul>
+                </section>
             </main>
-            <footer>Code since 1990</footer>
+            <footer>
+                <p>Code by coffee and cat love — since 1990.</p>
+                <p>
+                    Hosted by <a href="https://pages.github.com/" rel="noopener noreferrer" target="_blank">GitHub Pages</a> and served through <a href="https://www.cloudflare.com/" rel="noopener noreferrer" target="_blank">Cloudflare</a>
+                </p>
+                <p>
+                    <small><em>Simple site for a simple showcase</em></small>
+                </p>
+                <a href="#top">Back to top</a>
+            </footer>
         </>
     )
 }
