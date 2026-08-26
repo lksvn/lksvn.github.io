@@ -1,4 +1,5 @@
 import type { ServiceGroup } from "../data/services.ts";
+import { Icon } from "./Icon.tsx";
 
 type ServicesProps = {
     items: ServiceGroup[];
@@ -20,7 +21,7 @@ export function Services({ items }: ServicesProps) {
                                 ))}
                             </ul>
                             {service.note && <p><em>{service.note}</em></p>}
-                            <a href={service.whatsappUrl} target="_blank" rel="noopener noreferrer">Vamos conversar <svg className="icon" aria-hidden="true"><use href="/icons.svg#arrow-right" /></svg></a>
+                            <a href={service.whatsappUrl} target="_blank" rel="noopener noreferrer">Vamos conversar <Icon name="arrow-right"/></a>
                         </article>
                     ))}
                 </section>

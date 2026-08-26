@@ -110,6 +110,25 @@ mark {
     }
 }
 
+header {
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            li {
+                margin: 0 0.625rem;
+                @media screen and (max-width: 42rem) {
+                    margin: 0.625rem;
+                }
+            }
+        }
+    }
+}
+
 main { position: relative; }
 
 footer {
@@ -122,11 +141,12 @@ footer {
 
 section {
     margin-bottom: var(--section-gap);
-    h2 {
-        font-size: 2.5em;
+    h1 { font-size: 3.5rem; }
+    h1, h2 {
         text-align: center;
         margin: 8vh 0 5vh
     }
+    h2 { font-size: 2.5em; }
 }
 
 details {
@@ -147,4 +167,14 @@ details {
     block-size: var(--size);
     &.md { --size: 2rem; }
     &.lg { --size: 3rem; }
+
+    &.flip-h { transform: rotateY(180deg); }
+    &.flip-v { transform: rotateX(180deg); }
+    &.rot-90 { transform:  rotate(90deg); }
+    &.rot--90 { transform:  rotate(-90deg); }
+}
+
+.spacing {
+    margin-bottom: var(--section-gap);
+    &.md { --section-gap: 4rem }
 }

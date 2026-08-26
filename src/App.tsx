@@ -1,30 +1,33 @@
 import { Projects } from "./components/Projects"
 import { projects } from "./data/projects"
+import { Icon } from "./components/Icon"
+import { Footer } from "./components/Footer"
+import { BackToTop } from "./components/BackToTop"
 
 function App() {
     return (
         <>
             <header id="top" className="hero">
-                <svg className="icon lg" aria-hidden="true"><use href="/icons.svg#squirrel" /></svg>
+                <Icon name="squirrel" className="lg"/>
                 <h1><strong>Lucas Vinicius</strong></h1>
                 <p>Web Developer</p>
                 <p>Building and evolving commercial web applications and SaaS products since 2009</p>
                 <p><small>Available for freelance projects and full-time opportunities.</small></p>
                 <nav aria-label="Contact and Profiles">
                     <ul>
-                        <li><a href="https://www.linkedin.com/in/lksvn/" target="_blank" rel="noopener noreferrer"><svg className="icon" aria-hidden="true"><use href="/icons.svg#linkedin" /></svg> LinkedIn</a></li>
-                        <li><a href="https://github.com/lksvn" target="_blank" rel="noopener noreferrer"><svg className="icon" aria-hidden="true"><use href="/icons.svg#github" /></svg> GitHub</a></li>
-                        <li><a href="https://instagram.com/luwske" target="_blank" rel="noopener noreferrer"><svg className="icon" aria-hidden="true"><use href="/icons.svg#instagram" /></svg> Instagram</a></li>
-                        <li><a href="mailto:lksvn@outlook.com?subject=Hello There!"><svg className="icon" aria-hidden="true"><use href="/icons.svg#email" /></svg> Email</a></li>
-                        <li><a href="/Lucas_Vinicius_Web_Developer.pdf" target="_blank" rel="noopener noreferrer"><svg className="icon" aria-hidden="true"><use href="/icons.svg#resume" /></svg> Resume</a></li>
-                        <li><a href="/now/"><svg className="icon" aria-hidden="true"><use href="/icons.svg#book-open" /></svg> Now</a></li>
+                        <li><a href="https://www.linkedin.com/in/lksvn/" target="_blank" rel="noopener noreferrer"><Icon name="linkedin"/> LinkedIn</a></li>
+                        <li><a href="https://github.com/lksvn" target="_blank" rel="noopener noreferrer"><Icon name="github"/> GitHub</a></li>
+                        <li><a href="https://instagram.com/luwske" target="_blank" rel="noopener noreferrer"><Icon name="instagram"/> Instagram</a></li>
+                        <li><a href="mailto:lksvn@outlook.com?subject=Hello There!"><Icon name="email"/> Email</a></li>
+                        <li><a href="/Lucas_Vinicius_Web_Developer.pdf" target="_blank" rel="noopener noreferrer"><Icon name="resume"/> Resume</a></li>
+                        <li><a href="/now/"><Icon name="book-open"/> Now</a></li>
                     </ul>
                 </nav>
-                <a href="#about" aria-label="Go to about"><svg className="icon flip" aria-hidden="true"><use href="/icons.svg#arrow-right" /></svg></a>
+                <a href="#about" aria-label="Go to about"><Icon name="arrow-right" className="flip"/></a>
             </header>
             <main>
                 <section id="about">
-                    <h2><svg className="icon" aria-hidden="true"><use href="/icons.svg#rat" /></svg> About Me</h2>
+                    <h2><Icon name="rat"/> About Me</h2>
                     <p>I'm a <mark>Web Developer</mark> based in <strong>Brazil</strong>, building and evolving <strong>commercial web applications</strong> and <mark>SaaS products</mark> since 2009.</p>
                     <p>My career started in <strong>Graphic Design</strong> and <strong>Web Design</strong> before naturally evolving into <strong>front-end</strong> development and later web application development. This multidisciplinary background allows me to bridge <strong>design</strong>, <strong>user experience</strong>, <strong>business requirements</strong>, and <strong>software development</strong>.</p>
                     <p>
@@ -33,7 +36,7 @@ function App() {
                     </p>
                 </section>
                 <section className="what-i-do">
-                    <h2><svg className="icon" aria-hidden="true"><use href="/icons.svg#file-coding" /></svg> What I Do</h2>
+                    <h2><Icon name="file-coding"/> What I Do</h2>
 
                     <dl>
                         <dt>SaaS Products</dt>
@@ -49,7 +52,7 @@ function App() {
                     <p>Currently exploring: TypeScript &bull; React &bull; Next.js &bull; Vite</p>
                 </section>
                 <section className="past-experiences">
-                    <h2><svg className="icon" aria-hidden="true"><use href="/icons.svg#resume" /></svg> Past Experiences</h2>
+                    <h2><Icon name="resume"/> Past Experiences</h2>
                     <article>
                         <h3>Freelancing</h3>
                         <p>Web Developer (Part-time)</p>
@@ -125,13 +128,13 @@ function App() {
                     </article>
                 </section>
                 <section>
-                    <h2><svg className="icon" aria-hidden="true"><use href="/icons.svg#coffee" /></svg> Projects</h2>
+                    <h2><Icon name="coffee"/> Projects</h2>
                     <p>Over the years I've worked on websites, landing pages, interfaces, branding projects and SaaS-related solutions.</p>
                     <p>Below are some public projects I can share.</p>
                     <Projects items={projects} />
                 </section>
                 <section id="uses" className="what-i-use">
-                    <h2><svg className="icon" aria-hidden="true"><use href="/icons.svg#toolbox" /></svg> Uses</h2>
+                    <h2><Icon name="toolbox"/> Uses</h2>
                     <p>A small collection of the tools, technologies and platforms I use for work, learning and personal projects. Inspired by <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer">Uses.tech</a>.</p>
                     <ul>
                         <li>Visual Studio Code</li>
@@ -148,16 +151,8 @@ function App() {
                         <li>Vite</li>
                     </ul>
                 </section>
-                <footer>
-                    <p>Code by <a href="https://www.instagram.com/p/Btf41tLFmgI/" target="_blank" rel="noopener noreferrer">coffee</a> and <a href="https://www.instagram.com/p/CdZSjPjFhM1" target="_blank" rel="noopener noreferrer">cat love</a> — since 1990.</p>
-                    <p>
-                        Hosted by <a href="https://pages.github.com/" rel="noopener noreferrer" target="_blank">GitHub Pages</a> and served through <a href="https://www.cloudflare.com/" rel="noopener noreferrer" target="_blank">Cloudflare</a>.
-                    </p>
-                    <p>
-                        <small><em>Simple site for a simple showcase</em></small>
-                    </p>
-                </footer>
-                <a href="#top" aria-label="Back to top"><svg className="icon" aria-hidden="true"><use href="/icons.svg#corner-up" /></svg></a>
+                <Footer />
+                <BackToTop />
             </main>
         </>
     )

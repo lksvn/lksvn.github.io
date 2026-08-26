@@ -30,21 +30,6 @@ header.hero {
         font-size: 2rem
     }
 
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        li {
-            margin: 0 0.625rem;
-            @media screen and (max-width: 42rem) {
-                margin: 0.625rem;
-            }
-        }
-    }
-
     a {
         text-decoration: none;
         font-size: 1.25rem;

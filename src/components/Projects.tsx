@@ -1,4 +1,5 @@
 import type { Project } from "../data/projects.ts";
+import { Icon } from "../components/Icon.tsx";
 
 type ProjectsProps = {
     items: Project[];
@@ -12,13 +13,13 @@ export function Projects({ items }: ProjectsProps) {
                     <div>
                         <h3>{project.name}</h3>
                         {project.link && (
-                            <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${project.name}`}>Visit project <svg className="icon" aria-hidden="true"><use href="/icons.svg#external-link" /></svg></a>
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${project.name}`}>Visit project <Icon name="external-link"/></a>
                         )}
                         <div className="description" dangerouslySetInnerHTML={{ __html: project.description }} />
                     </div>
                     {project.images.length > 0 && (
                         <details>
-                            <summary><svg className="icon" aria-hidden="true"><use href="/icons.svg#images" /></svg> More images of {project.name}</summary>
+                            <summary><Icon name="images"/> More images of {project.name}</summary>
                             <ul>
                                 {project.images.map((image, index) => (
                                     <li key={image.url}>

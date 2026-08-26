@@ -1,49 +1,62 @@
+import { Footer } from "./components/Footer";
+import { BackToTop } from "./components/BackToTop";
+import { Icon } from "./components/Icon";
+
 function NowApp() {
     return (
         <>
             <header>
                 <nav aria-label="Navigation">
                     <ul>
-                        <li><a href="/">Back to Home</a></li>
-                        <li><a href="/freelance/">Freelancing (🇧🇷)</a></li>
+                        <li><a href="/"><Icon name="arrow-right" className="flip-h"/> Back to Home</a></li>
+                        <li><a href="/freelance/"><Icon name="toolbox"/> Freelancing (pt-BR)</a></li>
                     </ul>
                 </nav>
             </header>
             <main>
-                <h1><svg className="icon" aria-hidden="true"><use href="/icons.svg#book-open" /></svg> Now</h1>
-                <p>Hi, I'm Lucas Vinicius, a Web Developer based in Brazil. This page is what I'm currently working on and exploring.</p>
-                <p>This page is inspired by the "Now" concept popularized by <a href="https://sive.rs/now" target="_blank" rel="noopener noreferrer">Derek Sivers</a>.</p>
-                <p>🕑 <time dateTime="2026-08-25">Last Updated: August 25, 2026</time></p>
+                <section>
+                    <h1><Icon name="book-open"/> Now</h1>
+                    <p><Icon name="coffee"/> <time dateTime="2026-08-26"><strong>Last Updated:</strong> August 26, 2026</time></p>
 
-                <p>I'm currently open to full-time and freelance opportunities in web development.</p>
-                <p>My main interests are building useful web applications, improving existing products, and working on projects where thoughtful engineering matters more than chasing trends.</p>
+                    <p>Hi, I'm Lucas Vinicius, a <mark>Web Developer</mark> based in <strong>Brazil</strong>. This page is what I'm currently working on and exploring.</p>
+
+                    <p>This page is inspired by the "Now" concept popularized by <a href="https://sive.rs/now" target="_blank" rel="noopener noreferrer">Derek Sivers</a>.</p>
+
+
+                    <p>I'm currently <mark>open</mark> to full-time and freelance <mark>opportunities</mark> in web development.</p>
+                    <p>My main interests are building useful web applications, improving existing products, and working on projects where thoughtful engineering matters more than chasing trends.</p>
+                </section>
 
                 <section>
-                    <h2>🚀 Building</h2>
-                    <article>
+                    <h2><Icon name="file-coding"/> Building</h2>
+                    <article className="spacing md">
                         <h3>Flip Lab</h3>
                         <p>I'm working on a local Path of Exile market-analysis dashboard built with TypeScript, React, Node.js, and SQLite.</p>
                         <p>It started as a personal tool and became an opportunity to explore data collection, market scoring, local-first software, background processes, and interactive data visualization.</p>
+                        <a href="https://github.com/lksvn/poe-flip-lab" target="_blank" rel="noopener noreferrer"><Icon name="github"/> Visit the repository</a>
                     </article>
-                    <article>
+                    <article className="spacing md">
                         <h3>Obsidian Finances</h3>
                         <p>I recently turned my personal finance workflow into a reusable Obsidian template.</p>
                         <p>The project focuses on local-first data, recurring transactions, installments, dashboards, and practical automation without depending on a hosted service.</p>
+                        <a href="https://github.com/lksvn/obsidian-finances-template" target="_blank" rel="noopener noreferrer"><Icon name="github"/> Visit the repository</a>
                     </article>
-                    <article>
+                    <article className="spacing md">
                         <h3>Career Workbench</h3>
                         <p>I'm developing a file-based system for maintaining fact-checked career information and generating resumes with AI-assisted workflows.</p>
                         <p>The goal is to keep professional facts structured, portable, private, and separate from generated documents.</p>
+                        <a href="https://github.com/lksvn/career-workbench" target="_blank" rel="noopener noreferrer"><Icon name="github"/> Visit the repository</a>
                     </article>
                 </section>
+
                 <section>
-                    <h2>⏸️ On pause</h2>
+                    <h2><Icon name="monitor-pause"/> On pause</h2>
                     <p>Candidate Tracker is currently paused while I focus on smaller projects that solve immediate problems.</p>
                     <p>I still plan to revisit it. The project remains an important TypeScript, Next.js, PostgreSQL, Prisma, and software-architecture learning lab.</p>
                 </section>
                 <section>
-                    <h2>📚 Learning</h2>
-                    <p>Right now, I’m spending time on:</p>
+                    <h2><Icon name="graduation-cap"/> Learning</h2>
+                    <p>Right now, I'm spending time on:</p>
                     <ul>
                         <li>TypeScript and React architecture</li>
                         <li>Local-first applications</li>
@@ -54,26 +67,18 @@ function NowApp() {
                     </ul>
                 </section>
                 <section>
-                    <h2>🎮 Outside of work</h2>
+                    <h2><Icon name="gamepad"/> Outside of work</h2>
                     <p>I'm playing Path of Exile and occasionally turning the problems I encounter in games into software projects.</p>
                     <p>I'm also organizing my personal finances, refining my development workflow, and trying to build more things that I actually use.</p>
                 </section>
                 <section>
-                    <h2>💭 Current mindset</h2>
+                    <h2><Icon name="coffee"/> Current mindset</h2>
                     <p>I'm trying to build less for the sake of building and focus more on software that solves a real problem.</p>
                     <p>Small, useful, and finished is often better than ambitious and permanently unfinished.</p>
                 </section>
 
-                <footer>
-                    <p>Code by <a href="https://www.instagram.com/p/Btf41tLFmgI/" target="_blank" rel="noopener noreferrer">coffee</a> and <a href="https://www.instagram.com/p/CdZSjPjFhM1" target="_blank" rel="noopener noreferrer">cat love</a> — since 1990.</p>
-                    <p>
-                        Hosted by <a href="https://pages.github.com/" rel="noopener noreferrer" target="_blank">GitHub Pages</a> and served through <a href="https://www.cloudflare.com/" rel="noopener noreferrer" target="_blank">Cloudflare</a>.
-                    </p>
-                    <p>
-                        <small><em>Simple site for a simple showcase</em></small>
-                    </p>
-                </footer>
-                <a href="#top" aria-label="Back to top"><svg className="icon" aria-hidden="true"><use href="/icons.svg#corner-up" /></svg></a>
+                <Footer/>
+                <BackToTop/>
             </main>
         </>
     );
