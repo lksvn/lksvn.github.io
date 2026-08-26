@@ -7,13 +7,18 @@ type SelectedWorksProps = {
 export function SelectedWorks({ items }: SelectedWorksProps) {
     return (
         <>
-            {items.map((group) => (
+            {items.map((group, groupIndex) => (
                 <section key={group.title}>
                     <h3>{group.title}</h3>
-                    {group.works.map((work) => (
-                        <article key={work.title}>
+                    {group.works.map((work, workIndex) => {
+                        const isFirst = groupIndex === 0 && workIndex === 0;
+                        return (<article key={work.title}>
                             <figure>
-                                <img src={'/freelance/assets/images/' + work.image} alt={work.imageAlt} width="1000" height="1000" loading="lazy" decoding="async" />
+                                <img src={'/freelance/assets/images/' + work.image} alt={work.imageAlt} width="1000" height="1000"
+                                    loading={isFirst ? "eager" : "lazy"}
+                                    decoding={isFirst ? undefined : "async"}
+                                    fetchPriority={isFirst ? "high" : undefined}
+                                    />
                                 <figcaption>{work.category}</figcaption>
                             </figure>
                             <h4>{work.title}</h4>
@@ -23,8 +28,8 @@ export function SelectedWorks({ items }: SelectedWorksProps) {
                                     <li key={tag}>{tag}</li>
                                 ))}
                             </ul>
-                        </article>
-                    ))}
+                        </article>);
+                    })}
                 </section>
             ))}
         </>

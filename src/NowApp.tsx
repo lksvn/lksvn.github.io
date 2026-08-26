@@ -10,7 +10,7 @@ function NowApp() {
                 </nav>
             </header>
             <main>
-                <h1>Now</h1>
+                <h1><svg className="icon" aria-hidden="true"><use href="/icons.svg#book-open" /></svg> Now</h1>
                 <p>Hi, I'm Lucas Vinicius, a Web Developer based in Brazil. This page is what I'm currently working on and exploring.</p>
                 <p>This page is inspired by the "Now" concept popularized by <a href="https://sive.rs/now" target="_blank" rel="noopener noreferrer">Derek Sivers</a>.</p>
                 <p>🕑 <time dateTime="2026-08-25">Last Updated: August 25, 2026</time></p>
@@ -63,6 +63,17 @@ function NowApp() {
                     <p>I'm trying to build less for the sake of building and focus more on software that solves a real problem.</p>
                     <p>Small, useful, and finished is often better than ambitious and permanently unfinished.</p>
                 </section>
+
+                <footer>
+                    <p>Code by <a href="https://www.instagram.com/p/Btf41tLFmgI/" target="_blank" rel="noopener noreferrer">coffee</a> and <a href="https://www.instagram.com/p/CdZSjPjFhM1" target="_blank" rel="noopener noreferrer">cat love</a> — since 1990.</p>
+                    <p>
+                        Hosted by <a href="https://pages.github.com/" rel="noopener noreferrer" target="_blank">GitHub Pages</a> and served through <a href="https://www.cloudflare.com/" rel="noopener noreferrer" target="_blank">Cloudflare</a>.
+                    </p>
+                    <p>
+                        <small><em>Simple site for a simple showcase</em></small>
+                    </p>
+                </footer>
+                <a href="#top" aria-label="Back to top"><svg className="icon" aria-hidden="true"><use href="/icons.svg#corner-up" /></svg></a>
             </main>
         </>
     );

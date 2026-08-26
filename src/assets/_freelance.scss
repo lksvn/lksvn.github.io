@@ -1,0 +1,11 @@
+body {
+    font-family: 'Elms Sans', sans-serif;
+    font-optical-sizing: auto;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}

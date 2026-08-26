@@ -20,7 +20,7 @@ export function Services({ items }: ServicesProps) {
                                 ))}
                             </ul>
                             {service.note && <p><em>{service.note}</em></p>}
-                            <a href={service.whatsappUrl} target="_blank" rel="noopener noreferrer">Vamos conversar</a>
+                            <a href={service.whatsappUrl} target="_blank" rel="noopener noreferrer">Vamos conversar <svg className="icon" aria-hidden="true"><use href="/icons.svg#arrow-right" /></svg></a>
                         </article>
                     ))}
                 </section>
