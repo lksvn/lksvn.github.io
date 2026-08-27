@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Design Gráfico",
+        "works": [
+            {
+                "title": "Kauneus Moda Fit",
+                "category": "Identidade visual",
+                "description": "Conceito visual, logotipo e aplicações da marca.",
+                "tags": [ "Logotipo", "Identidade visual" ],
+                "image": "kauneus-1.jpg",
+                "imageAlt": "Aplicação da identidade visual Kauneus Moda Fit"
+            },
+            {
+                "title": "Victor Hessel",
+                "category": "Identidade visual",
+                "description": "Logotipo e identidade visual para um cabeleireiro.",
+                "tags": [ "Logotipo", "Identidade visual" ],
+                "image": "victor-hessel-1.jpg",
+                "imageAlt": "Prévia da identidade visual Victor Hessel"
+            },
+            {
+                "title": "Loteria of Legends",
+                "category": "Identidade e materiais promocionais",
+                "description": "Identidade visual, landing page e materiais de divulgação.",
+                "tags": [ "Identidade visual", "Landing page", "Redes sociais" ],
+                "image": "loteria-legends-1.jpg",
+                "imageAlt": "Prévia da identidade visual Loteria of Legends"
+            }
+        ]
+    },
+    {
+        "title": "Sites",
+        "works": [
+            {
+                "title": "JurAssist",
+                "category": "Landing page institucional",
+                "description": "Criei o design completo da landing page e sua interface responsiva.",
+                "tags": [ "Landing page", "Design responsivo" ],
+                "image": "jurassit-1.jpg",
+                "imageAlt": "Prévia da página do projeto JurAssist"
+            },
+            {
+                "title": "WI Digital",
+                "category": "Site institucional",
+                "description": "Criei o design completo do site institucional e sua interface responsiva.",
+                "tags": [ "Site institucional", "Design responsivo" ],
+                "image": "wi-digita-2021-1.jpg",
+                "imageAlt": "Prévia do site institucional WI Digital"
+            },
+            {
+                "title": "Bild",
+                "category": "Site institucional",
+                "description": "Redesign e páginas responsivas do site.",
+                "tags": [ "Site institucional" ],
+                "image": "bild-1.jpg",
+                "imageAlt": "Prévia do site institucional Bild"
+            }
+        ]
+    }
+]

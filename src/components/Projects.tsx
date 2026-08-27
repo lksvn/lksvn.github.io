@@ -1,0 +1,36 @@
+import type { Project } from "../data/projects.ts";
+import { Icon } from "../components/Icon.tsx";
+
+type ProjectsProps = {
+    items: Project[];
+}
+export function Projects({ items }: ProjectsProps) {
+    return (
+        <div className="project-list">
+            {items.map((project) => (
+                <article key={project.name}>
+                    <img src={'/assets/images/thumbs/' + project.thumbnail} alt={project.name} loading="lazy" width="200" height="150" className="thumbnail"/>
+                    <div>
+                        <h3>{project.name}</h3>
+                        {project.link && (
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${project.name}`}>Visit project <Icon name="external-link"/></a>
+                        )}
+                        <div className="description" dangerouslySetInnerHTML={{ __html: project.description }} />
+                    </div>
+                    {project.images.length > 0 && (
+                        <details>
+                            <summary><Icon name="images"/> More images of {project.name}</summary>
+                            <ul>
+                                {project.images.map((image, index) => (
+                                    <li key={image.url}>
+                                        <img src={'/assets/images/projects/' + image.url} alt={`${project.name} image ${index + 1}`} loading="lazy"/>
+                                    </li>
+                                ))}
+                            </ul>
+                        </details>
+                    )}
+                </article>
+            ))}
+        </div>
+    );
+}
