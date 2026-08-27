@@ -10,9 +10,10 @@ export function SelectedWorks({ items }: SelectedWorksProps) {
             {items.map((group, groupIndex) => (
                 <section key={group.title}>
                     <h3>{group.title}</h3>
+                    <div className="works-grid">
                     {group.works.map((work, workIndex) => {
                         const isFirst = groupIndex === 0 && workIndex === 0;
-                        return (<article key={work.title}>
+                        return (<article key={work.title} className="card project-card">
                             <figure>
                                 <img src={'/freelance/assets/images/' + work.image} alt={work.imageAlt} width="1000" height="1000"
                                     loading={isFirst ? "eager" : "lazy"}
@@ -30,6 +31,7 @@ export function SelectedWorks({ items }: SelectedWorksProps) {
                             </ul>
                         </article>);
                     })}
+                    </div>
                 </section>
             ))}
         </>

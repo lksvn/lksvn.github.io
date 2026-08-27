@@ -5,7 +5,7 @@ body {
     font-variation-settings: "wdth" 100;
 }
 
-header.hero {
+.hero {
     min-height: 100svh;
     display: flex;
     flex-flow: column;
@@ -33,6 +33,15 @@ header.hero {
     a {
         text-decoration: none;
         font-size: 1.25rem;
+    }
+}
+
+section {
+    &[id] {
+        scroll-margin-top: 7rem;
+        @media screen and (min-width: 40rem) {
+            scroll-margin-top: 4.5rem;
+        }
     }
 }
 

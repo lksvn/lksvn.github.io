@@ -8,8 +8,8 @@ function NowApp() {
             <header>
                 <nav aria-label="Navigation">
                     <ul>
-                        <li><a href="/"><Icon name="arrow-right" className="flip-h"/> Back to Home</a></li>
-                        <li><a href="/freelance/"><Icon name="toolbox"/> Freelancing (pt-BR)</a></li>
+                        <li><Icon name="arrow-right" className="flip-h"/> <a href="/">Home</a></li>
+                        <li><Icon name="toolbox"/> <a href="/freelance/">Freelancing (pt-BR)</a></li>
                     </ul>
                 </nav>
             </header>
