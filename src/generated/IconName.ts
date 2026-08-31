@@ -1,0 +1,23 @@
+// Generated from public/icons.svg
+
+export type IconName =
+	| "arrow-right"
+	| "book-open"
+	| "coffee"
+	| "corner-up"
+	| "email"
+	| "external-link"
+	| "file-coding"
+	| "gamepad"
+	| "github"
+	| "graduation-cap"
+	| "images"
+	| "instagram"
+	| "linkedin"
+	| "monitor-pause"
+	| "rat"
+	| "resume"
+	| "squirrel"
+	| "sun-moon"
+	| "toolbox"
+	| "whatsapp"

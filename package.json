@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predev": "npm run generate:icons",
     "build": "tsc -b && vite build",
+    "prebuild": "npm run generate:icons",
+    "generate:icons": "node scripts/generate-icon-types.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },

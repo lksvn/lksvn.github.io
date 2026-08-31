@@ -1,4 +1,5 @@
-type IconName = "squirrel" | "linkedin" | "github" | "instagram" | "email" | "resume" | "book-open" | "arrow-right" | "rat" | "file-coding" | "coffee" | "toolbox" | "external-link" | "images" | "corner-up" | "whatsapp" | "monitor-pause" | "graduation-cap" | "gamepad" | "sun-moon";
+// type IconName = "squirrel" | "linkedin" | "github" | "instagram" | "email" | "resume" | "book-open" | "arrow-right" | "rat" | "file-coding" | "coffee" | "toolbox" | "external-link" | "images" | "corner-up" | "whatsapp" | "monitor-pause" | "graduation-cap" | "gamepad" | "sun-moon";
+import type { IconName } from "../generated/IconName";
 
 type IconProps = {
     className?: string,
