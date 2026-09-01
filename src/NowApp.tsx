@@ -16,7 +16,7 @@ function NowApp() {
             <main>
                 <section>
                     <h1><Icon name="book-open"/> Now</h1>
-                    <p><Icon name="coffee"/> <time dateTime="2026-08-26"><strong>Last Updated:</strong> August 26, 2026</time></p>
+                    <p><Icon name="coffee"/> <time dateTime="2026-08-31"><strong>Last Updated:</strong> August 31, 2026</time></p>
 
                     <p>Hi, I'm Lucas Vinicius, a <mark>Web Developer</mark> based in <strong>Brazil</strong>. This page is what I'm currently working on and exploring.</p>
 
@@ -29,6 +29,13 @@ function NowApp() {
 
                 <section>
                     <h2><Icon name="file-coding"/> Building</h2>
+                    <article className="spacing md">
+                        <h3>MTG Proxy</h3>
+                        <p>I built a client-side React application that turns Magic: The Gathering deck lists into printable playtest card PDFs.</p>
+                        <p>It uses Scryfall for card data and supports printing selection, list history, text backups, and configurable PDF exports.</p>
+                        <p><a href="/mtg-proxy/"><Icon name="arrow-right"/> Open MTG Proxy</a></p>
+                        <a href="https://github.com/lksvn/mtg-proxy" target="_blank" rel="noopener noreferrer"><Icon name="github"/> Visit the repository</a>
+                    </article>
                     <article className="spacing md">
                         <h3>Flip Lab</h3>
                         <p>I'm working on a local Path of Exile market-analysis dashboard built with TypeScript, React, Node.js, and SQLite.</p>
