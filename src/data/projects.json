@@ -1,5 +1,20 @@
 [
     {
+        "name": "Scry & Trade",
+        "description": "<p>A Portuguese-language web app for organizing and sharing Magic: The Gathering HAVE and WANT lists.</p><p>I built it with React, TypeScript, Supabase, PostgreSQL and Scryfall. It supports list imports, public and private profiles, card discovery, matching, and drafts across devices.</p>",
+        "images": [
+            { "url": "scry-trade-1.jpg" },
+            { "url": "scry-trade-2.jpg" },
+            { "url": "scry-trade-3.jpg" },
+            { "url": "scry-trade-4.jpg" },
+            { "url": "scry-trade-5.jpg" },
+            { "url": "scry-trade-6.jpg" }
+        ],
+        "thumbnail": "scry-trade.jpg",
+        "link": "https://scrytrade.com.br/",
+        "col": false
+    },
+    {
         "name": "JurAssist",
         "description": "<p>AI-powered legal assistant platform developed as a collaborative project.</p><p>Contributed to the development of the web application, including front-end interfaces, Express.js backend, OpenAI API integration and the project landing page.</p><p>Key features include: AI chat assistant; Document sumarization; Legal document generation; Legal template generation; Legal document analysis.</p><p>Built using Vue.js, Vue Router, Tailwind CSS, Express.js, MongoDB and the OpenAI API.</p><p><strong>Note:</strong> Private repository. Images were taken during development and may differ from the current production version.</p>",
         "images": [
